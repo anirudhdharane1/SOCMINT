@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],
+        serverExternalPackages: ['@xenova/transformers'],
         as: "*.css",
       },
     },
